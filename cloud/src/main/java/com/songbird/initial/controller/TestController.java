@@ -1,4 +1,4 @@
-package com.Songbird.initial.controller;
+package com.songbird.initial.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
