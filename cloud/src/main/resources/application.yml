@@ -1,0 +1,11 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: cloud
+  cloud:
+    nacos:6
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: freedomcloud # 注册到 nacos 的指定 namespace，默认为 public
+        group: freedomcloud
